@@ -9,7 +9,7 @@ def notify():
         osascript -e 'beep 3'
         """.format("Stand Up", "Stretch a little bit, drink water"))
 
-schedule.every().hour.do(notify)
+schedule.every().hour.at(":45").do(notify)
 
 while True:
     schedule.run_pending()
