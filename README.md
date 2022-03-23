@@ -5,5 +5,4 @@ This is one of the modules used to schedule the job to run every hour. For whate
 an install...
 
 # FOR WINDOWS 10
-Using Windows built in Task Scheduler for now, will update soon...
-
+There was some trial and error with Windows Task Scheduler, there is a terminal that opens on boot, but I just give it a few seconds then close it. The program runs in the background.
